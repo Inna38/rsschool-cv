@@ -38,3 +38,17 @@ if( typeof obj[keys] === 'string') {
 }
 
 ```
+
+## Experience
+1. https://rolling-scopes-school.github.io/inna38-JSFEPRESCHOOL2022Q4/ 
+2. https://inna38-momentum.netlify.app/
+3. https://inna38.github.io/tic-tac-toe/
+
+## Education
+*  Rs School - December 2022 - March 2023
+*  Go IT - March 2023 - November 2023
+
+## Languages
+* English [A2]
+* Ukrainian [Native]
+* Russian [Proficiency]
