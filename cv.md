@@ -17,10 +17,10 @@
 * CSS 
 * Sass
 * JavaScript 
-* react
+* React
 
 ## Code example:
-# Count strings in objects
+### Count strings in objects
 * Create a function strCount (takes an object as argument) that will count all string values inside an object.
 
 ```
