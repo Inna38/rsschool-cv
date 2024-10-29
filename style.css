@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -75,11 +75,11 @@ a:hover {
 h2 {
   font-family: Pacifico;
   color: var(--color-);
-}
+} */
 
 
 /* header */
-.wrapper-header {
+/* .wrapper-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,11 +98,11 @@ h2 {
   color: black;
   font-size: 20px;
   margin-bottom: 10px;
-}
+} */
 
 
 /* section-contacts */
-.section-contacts {
+/* .section-contacts {
   display: flex;
   flex: 0 1 auto;
   flex-wrap: wrap;
@@ -124,11 +124,11 @@ h2 {
 
 .icon {
   margin-right: 5px;
-}
+} */
 
 
 /* section-about */
-.section-about {
+/* .section-about {
   display: inline-flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
@@ -156,17 +156,17 @@ h2 {
 
 .projects-list a {
   text-decoration: underline;
-}
+} */
 
 
 /* section-example */
-.section-example {
+/* .section-example {
   text-align: center;
-}
+} */
 
 
 /* section-education */
-.section-education {
+/* .section-education {
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -174,21 +174,21 @@ h2 {
 .ducation {
   color: #a8a5a5;
   font-size: 14px;
-}
+} */
 
 
 /* footer */
-.footer-link {
+/* .footer-link {
   margin-right: 45px;
 }
 
 .footer-logo {
   margin-right: 10px;
-}
+} */
 
 
 /* media-container */
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 8px;
@@ -296,4 +296,4 @@ h2 {
     margin-top: 20px;
     margin-bottom: 50px;
   }
-}
+} */
