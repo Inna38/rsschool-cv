@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="container header">
+      <div class="wrapper-header">
+        <h1 class="header-title">Inna Didenko</h1>
+        <p class="header-text">FRONTEND DEVELOPER</p>
+      </div>
+      <img
+        class="header-img"
+        src="./img/photo_2022-07-28_17-12-49.jpg"
+        alt="photo"
+        width="250"
+      />
+    </header>
+
+    <main class="container">
+      <ul class="section-contacts">
+        <li class="tel link">
+          <img src="./img/phone.png" alt="phone_icon" class="icon" />
+          <a href="tel:380978761797">+38-097-876-17-97</a>
+        </li>
+        <li class="mail link">
+          <img src="./img/message.png" alt="message_icon" class="icon" />
+          <a href="mailto:innadidenko29@gmail.com">innadidenko29@gmail.com</a>
+        </li>
+      </ul>
+
+      <section class="section-about">
+        <div class="about-wrapper">
+          <h2>About Me</h2>
+          <p class="about-title">
+            I am a switcher and I am changing my life and field of activity to
+            web development. This work brings me personal satisfaction. I like
+            to work and see the results of my work. I would like to work in a
+            large company and be part of a big project.
+          </p>
+        </div>
+        <div class="skills-wrapper">
+          <div class="skills-list">
+            <h2>Skils</h2>
+            <ol>
+              <li class="skills-list_item">Figma</li>
+              <li class="skills-list_item">Git</li>
+              <li class="skills-list_item">HTML</li>
+              <li class="skills-list_item">CSS</li>
+              <li class="skills-list_item">Sass</li>
+              <li class="skills-list_item">JavaScript</li>
+              <li class="skills-list_item">React</li>
+            </ol>
+          </div>
+
+          <div class="projects">
+            <h2>Projects</h2>
+            <ol class="projects-list">
+              <li>
+                <a
+                  target="_blank"
+                  href=" https://rolling-scopes-school.github.io/inna38-JSFEPRESCHOOL2022Q4/ "
+                  >Plants</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="https://inna38-momentum.netlify.app/"
+                  >Momentum</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="https://inna38.github.io/tic-tac-toe/"
+                  >Tic-tac-toe</a
+                >
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-example">
+        <h2>Code example</h2>
+        <h3>Count strings in objects</h3>
+        <p>
+          Create a function strCount (takes an object as argument) that will
+          count all string values inside an object.
+        </p>
+
+         <pre class="code">
+           <code>    
+    function strCount(obj){
+    let sum = 0
+    for (let keys in obj) {
+    if (typeof obj[keys] === 'string') {
+    sum += 1
+    }
+    if (typeof obj[keys] === 'object') {
+    sum += strCount(obj[keys])
+    }
+    } return sum
+    }
+           </code>
+         </pre>
+      </section>
+
+      <section class="section-education">
+        <div class="education-container">
+          <h2 class="education_title">Education</h2>
+          <ul>
+            <li class="education">
+              <p>Rs School</p>
+              <span class="ducation"
+                >December 2022 - March 2023</span
+              >
+            </li>
+            <li class="education">
+              <p>Go IT</p>
+              <span class="ducation"
+                >March 2023 - November 2023</span
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="languages">
+          <h2>Languages</h2>
+          <ul class="last-list">
+            <li>English [A2]</li>
+            <li>Ukrainian [Native]</li>
+            <li>Russian [Proficiency]</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <nav>
+        <ul class="footer-nav">
+          <li>
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://github.com/Inna38"
+              >My Github 2024</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://github.com/rolling-scopes-school/tasks/tree/master/stage1"
+              ><span class="footer-logo">Welkome to:</span>
+              <img src="./img/logo-rsschool3.png" alt="logo" width="80"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
